@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff; 
+    color: white;
+    box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.25),
+        0 0 3px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between; 
+    padding: 15px; 
+}
+
+.left-side a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-side ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right-side li {
+    margin-left: 20px; 
+}
+
+.right-side a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+}
+img{
+    width: 100%;
+}
